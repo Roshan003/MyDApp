@@ -1,31 +1,40 @@
-# MyDApp
-# 🚀 My ERC-20 Token DApp
+# My ERC-20 Token DApp
 
-Welcome to the **My ERC-20 Token DApp**! This application allows users to interact with an ERC-20 token smart contract deployed on a local Ethereum network using Ganache.
+![Logo](https://your-logo-url.com/logo.png) <!-- Add your logo URL here -->
 
----
+## Overview
+This is a decentralized application (DApp) for interacting with an ERC-20 token smart contract. Users can connect their wallets, view their token balances, and send tokens to other addresses.
 
-## 📋 Table of Contents
-1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Running the DApp](#running-the-dapp)
-5. [Connecting to MetaMask](#connecting-to-metamask)
-6. [Troubleshooting](#troubleshooting)
-7. [License](#license)
-8. [Acknowledgments](#acknowledgments)
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Instructions](#instructions)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
----
-
-## 🔍 Introduction
-This DApp provides functionality to:
-- Connect to a wallet
+## Features
+- Connect to MetaMask wallet
+- View ERC-20 token balance
 - Send tokens to other addresses
-- View token balance
 
-## ⚙️ Installation
+## Technologies Used
+- **Ethereum**: Smart contracts using Solidity
+- **Hardhat**: Development environment
+- **OpenZeppelin**: ERC-20 token standard
+- **JavaScript**: Frontend logic
+- **HTML/CSS**: User interface
 
-### 1. Clone the Repository
-```bash
-git clone <your-repository-url>
-cd <your-repository-folder>
+## Getting Started
+
+### Prerequisites
+- Node.js installed on your machine
+- Ganache for local Ethereum blockchain
+
+### Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Roshan003/MyDApp.git
+   cd MyDApp

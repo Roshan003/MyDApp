@@ -1,7 +1,5 @@
 # My ERC-20 Token DApp
 
-![Logo](https://your-logo-url.com/logo.png) <!-- Add your logo URL here -->
-
 ## Overview
 This is a decentralized application (DApp) for interacting with an ERC-20 token smart contract. Users can connect their wallets, view their token balances, and send tokens to other addresses.
 
@@ -10,9 +8,6 @@ This is a decentralized application (DApp) for interacting with an ERC-20 token 
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Instructions](#instructions)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Features
 - Connect to MetaMask wallet

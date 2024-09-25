@@ -62,7 +62,7 @@ This is a decentralized application (DApp) for interacting with an ERC-20 token 
    ```bash
    npx http-server
 
-9. Then, open your browser and navigate to http://localhost:8080 (or whatever port your server is running on).
+9. Then, open your browser and navigate to http://localhost:8000 (or whatever port your server is running on).
 
 10. Connect to the Wallet
     Click on the "Connect Wallet" button in your DApp.

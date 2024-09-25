@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERC-20 Token DApp</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.5.2/dist/web3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>My ERC-20 Token DApp</h1>
+        <button id="connectButton">Connect Wallet</button>
+        <div id="status"></div> <!-- Connected Address will be displayed here -->
+        <div id="tokenBalance"></div> <!-- Token balance will be displayed here -->
+
+        <div id="transferForm" style="display:none;">
+            <input type="text" id="recipient" placeholder="Recipient Address">
+            <input type="text" id="amount" placeholder="Amount in Tokens">
+            <button id="sendButton">Send Tokens</button>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

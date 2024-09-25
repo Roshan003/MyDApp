@@ -1,0 +1,84 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px; 
+  color: #4A90E2;
+}
+
+#status {
+  margin: 20px 0; 
+  font-size: 1.2rem;
+  padding: 15px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+#tokenBalance {
+  margin: 20px 0; 
+  font-size: 1.2rem;
+  padding: 15px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+#connectButton, #sendButton {
+  padding: 15px;
+  background-color: #4A90E2;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#connectButton:hover, #sendButton:hover {
+  background-color: #357ABD;
+}
+
+input {
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 16px;
+  width: calc(100% - 24px);
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #4A90E2;
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  h1 {
+      font-size: 1.8rem;
+  }
+}

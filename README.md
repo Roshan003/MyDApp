@@ -71,8 +71,8 @@ This is a decentralized application (DApp) for interacting with an ERC-20 token 
 
 11. Added Features
     Features
-   Connect MetaMask wallet
-   Mint new tokens (only accessible by the contract owner)
-   Approve a spender to transfer tokens on your behalf
-   Transfer tokens to another address
-   View ERC-20 token balance
+   - Connect MetaMask wallet
+   - Mint new tokens (only accessible by the contract owner)
+   - Approve a spender to transfer tokens on your behalf
+   - Transfer tokens to another address
+   - View ERC-20 token balance

@@ -68,3 +68,11 @@ This is a decentralized application (DApp) for interacting with an ERC-20 token 
     Click on the "Connect Wallet" button in your DApp.
     Approve the connection request in MetaMask.
     The connected address and token balance should display below the button.
+
+11. Added Features
+    Features
+   Connect MetaMask wallet
+   Mint new tokens (only accessible by the contract owner)
+   Approve a spender to transfer tokens on your behalf
+   Transfer tokens to another address
+   View ERC-20 token balance
